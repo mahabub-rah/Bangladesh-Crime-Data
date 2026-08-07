@@ -1,0 +1,130 @@
+-- Insert January 2026 data
+INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
+(2026, 'January', 'DMP', 4, 29, 21, 4, 1, 108, 14, 5, 42, 101, 401, 622, 1352),
+(2026, 'January', 'CMP', 0, 6, 6, 6, 0, 39, 2, 1, 14, 33, 118, 197, 422),
+(2026, 'January', 'KMP', 0, 4, 1, 2, 0, 7, 1, 0, 0, 17, 25, 58, 115),
+(2026, 'January', 'RMP', 0, 2, 2, 0, 0, 7, 1, 1, 2, 7, 40, 105, 167),
+(2026, 'January', 'BMP', 1, 0, 1, 0, 0, 18, 5, 0, 3, 4, 43, 34, 109),
+(2026, 'January', 'SMP', 1, 2, 1, 8, 0, 7, 0, 3, 0, 7, 41, 82, 152),
+(2026, 'January', 'RPMP', 0, 0, 2, 0, 0, 7, 0, 2, 1, 2, 23, 36, 73),
+(2026, 'January', 'GMP', 3, 9, 0, 1, 0, 26, 8, 2, 5, 15, 67, 124, 260),
+(2026, 'January', 'Dhaka Range', 12, 42, 73, 7, 0, 252, 10, 11, 42, 123, 1065, 1171, 2808),
+(2026, 'January', 'Mymensingh Range', 0, 6, 17, 4, 0, 69, 1, 4, 4, 49, 367, 290, 811),
+(2026, 'January', 'Chittagong Range', 14, 19, 56, 9, 0, 165, 23, 3, 60, 134, 972, 934, 2389),
+(2026, 'January', 'Sylhet Range', 3, 7, 11, 3, 0, 46, 2, 1, 0, 51, 362, 231, 717),
+(2026, 'January', 'Khulna Range', 1, 9, 35, 7, 0, 108, 6, 2, 28, 83, 462, 510, 1251),
+(2026, 'January', 'Barishal Range', 3, 4, 20, 3, 0, 113, 2, 0, 16, 32, 407, 216, 816),
+(2026, 'January', 'Rajshahi Range', 8, 15, 24, 1, 0, 142, 4, 3, 7, 85, 553, 488, 1330),
+(2026, 'January', 'Rangpur Range', 2, 7, 15, 1, 0, 167, 7, 4, 12, 72, 631, 302, 1220),
+(2026, 'January', 'Railway Range', 0, 2, 2, 1, 0, 0, 1, 0, 0, 13, 12, 35, 66);
+
+
+-- Insert February 2026 data
+INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
+(2026, 'February', 'DMP', 3, 22, 16, 4, 0, 96, 12, 8, 42, 84, 364, 390, 1041),
+(2026, 'February', 'CMP', 0, 10, 4, 5, 0, 30, 4, 2, 4, 17, 124, 140, 340),
+(2026, 'February', 'KMP', 1, 3, 4, 0, 0, 9, 1, 0, 3, 12, 26, 32, 91),
+(2026, 'February', 'RMP', 0, 3, 4, 0, 0, 12, 0, 0, 2, 4, 29, 36, 90),
+(2026, 'February', 'BMP', 1, 1, 1, 2, 0, 18, 6, 0, 5, 6, 44, 22, 106),
+(2026, 'February', 'SMP', 0, 4, 1, 1, 0, 5, 0, 2, 5, 11, 37, 57, 123),
+(2026, 'February', 'RPMP', 0, 0, 0, 0, 0, 6, 0, 1, 2, 4, 17, 27, 57),
+(2026, 'February', 'GMP', 1, 2, 2, 3, 0, 28, 3, 3, 0, 12, 71, 88, 213),
+(2026, 'February', 'Dhaka Range', 12, 30, 57, 2, 0, 240, 7, 8, 31, 96, 1090, 798, 2371),
+(2026, 'February', 'Mymensingh Range', 3, 1, 15, 3, 0, 58, 6, 2, 6, 23, 363, 231, 711),
+(2026, 'February', 'Chittagong Range', 14, 23, 54, 11, 0, 171, 12, 6, 45, 107, 889, 652, 1984),
+(2026, 'February', 'Sylhet Range', 1, 2, 20, 2, 0, 40, 1, 1, 4, 34, 316, 155, 576),
+(2026, 'February', 'Khulna Range', 2, 7, 26, 7, 1, 95, 1, 4, 14, 67, 494, 335, 1053),
+(2026, 'February', 'Barishal Range', 2, 2, 9, 7, 0, 108, 0, 2, 12, 29, 423, 181, 775),
+(2026, 'February', 'Rajshahi Range', 2, 14, 22, 1, 0, 140, 1, 1, 2, 60, 594, 309, 1146),
+(2026, 'February', 'Rangpur Range', 0, 6, 15, 0, 0, 125, 10, 2, 10, 57, 616, 213, 1054),
+(2026, 'February', 'Railway Range', 0, 4, 0, 0, 0, 0, 0, 0, 0, 11, 7, 22, 44);
+
+
+-- Insert March 2026 data
+INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
+(2026, 'March', 'DMP', 5, 25, 24, 7, 0, 111, 20, 7, 62, 99, 472, 473, 1305),
+(2026, 'March', 'CMP', 1, 4, 3, 7, 0, 29, 0, 5, 13, 22, 129, 195, 408),
+(2026, 'March', 'KMP', 0, 0, 4, 0, 0, 8, 2, 2, 0, 16, 28, 45, 105),
+(2026, 'March', 'RMP', 0, 1, 1, 0, 0, 10, 3, 1, 4, 11, 47, 54, 132),
+(2026, 'March', 'BMP', 0, 0, 1, 3, 0, 9, 3, 0, 3, 11, 60, 41, 131),
+(2026, 'March', 'SMP', 0, 3, 3, 5, 0, 4, 2, 3, 0, 19, 46, 85, 170),
+(2026, 'March', 'RPMP', 0, 2, 3, 2, 0, 3, 1, 0, 1, 10, 46, 44, 112),
+(2026, 'March', 'GMP', 1, 5, 5, 3, 0, 24, 9, 4, 2, 9, 103, 142, 307),
+(2026, 'March', 'Dhaka Range', 13, 23, 71, 10, 0, 258, 12, 9, 41, 150, 1384, 1227, 3198),
+(2026, 'March', 'Mymensingh Range', 0, 6, 20, 4, 0, 87, 4, 2, 8, 37, 475, 303, 946),
+(2026, 'March', 'Chittagong Range', 12, 22, 61, 17, 0, 210, 26, 5, 67, 132, 1231, 854, 2637),
+(2026, 'March', 'Sylhet Range', 1, 6, 17, 6, 0, 80, 0, 3, 9, 49, 480, 242, 893),
+(2026, 'March', 'Khulna Range', 2, 14, 31, 17, 0, 137, 6, 7, 24, 95, 699, 505, 1537),
+(2026, 'March', 'Barishal Range', 1, 5, 17, 5, 0, 151, 1, 2, 30, 49, 532, 257, 1050),
+(2026, 'March', 'Rajshahi Range', 2, 17, 41, 4, 0, 185, 3, 6, 7, 60, 855, 492, 1672),
+(2026, 'March', 'Rangpur Range', 1, 7, 15, 1, 0, 179, 10, 7, 13, 75, 770, 407, 1485),
+(2026, 'March', 'Railway Range', 0, 2, 0, 0, 0, 0, 0, 0, 1, 12, 11, 43, 69);
+
+
+-- Insert April 2026 data
+INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
+(2026, 'April', 'DMP', 3, 25, 17, 8, 0, 168, 21, 3, 44, 100, 506, 593, 1488),
+(2026, 'April', 'CMP', 3, 9, 4, 5, 0, 51, 3, 0, 15, 25, 153, 253, 521),
+(2026, 'April', 'KMP', 0, 2, 2, 0, 0, 5, 2, 0, 6, 12, 35, 50, 114),
+(2026, 'April', 'RMP', 0, 3, 0, 0, 2, 23, 2, 0, 2, 8, 54, 74, 168),
+(2026, 'April', 'BMP', 0, 1, 2, 1, 0, 18, 6, 1, 4, 10, 59, 52, 154),
+(2026, 'April', 'SMP', 0, 1, 3, 6, 0, 5, 1, 3, 4, 18, 49, 83, 173),
+(2026, 'April', 'RPMP', 0, 1, 1, 2, 0, 7, 0, 0, 2, 10, 37, 64, 124),
+(2026, 'April', 'GMP', 0, 3, 5, 3, 0, 34, 6, 3, 3, 20, 106, 172, 355),
+(2026, 'April', 'Dhaka Range', 21, 36, 64, 8, 1, 375, 15, 22, 39, 132, 1433, 1348, 3494),
+(2026, 'April', 'Mymensingh Range', 0, 6, 17, 7, 0, 108, 3, 6, 7, 48, 394, 342, 938),
+(2026, 'April', 'Chittagong Range', 10, 22, 54, 9, 0, 285, 18, 9, 71, 105, 1346, 969, 2898),
+(2026, 'April', 'Sylhet Range', 4, 7, 24, 3, 0, 78, 1, 1, 4, 45, 400, 240, 807),
+(2026, 'April', 'Khulna Range', 3, 12, 24, 15, 0, 163, 5, 5, 25, 72, 687, 500, 1511),
+(2026, 'April', 'Barishal Range', 3, 3, 15, 5, 0, 200, 2, 1, 21, 44, 497, 247, 1038),
+(2026, 'April', 'Rajshahi Range', 1, 10, 36, 1, 0, 252, 2, 5, 1, 70, 753, 592, 1723),
+(2026, 'April', 'Rangpur Range', 3, 5, 17, 4, 0, 237, 7, 7, 19, 80, 767, 454, 1600),
+(2026, 'April', 'Railway Range', 0, 6, 3, 0, 0, 2, 0, 0, 0, 7, 15, 41, 74);
+
+
+-- Insert May 2026 data
+INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
+(2026, 'May', 'DMP', 2, 33, 16, 4, 0, 134, 13, 9, 31, 92, 528, 503, 1365),
+(2026, 'May', 'CMP', 0, 3, 6, 0, 0, 45, 1, 3, 12, 20, 166, 213, 469),
+(2026, 'May', 'KMP', 1, 4, 3, 1, 0, 18, 2, 1, 1, 13, 39, 66, 149),
+(2026, 'May', 'RMP', 0, 4, 3, 1, 0, 19, 4, 0, 2, 13, 63, 72, 181),
+(2026, 'May', 'BMP', 0, 0, 2, 3, 0, 32, 2, 0, 4, 8, 62, 78, 191),
+(2026, 'May', 'SMP', 2, 0, 4, 7, 0, 15, 1, 2, 3, 20, 51, 78, 183),
+(2026, 'May', 'RPMP', 0, 0, 0, 2, 0, 11, 0, 0, 5, 7, 29, 92, 146),
+(2026, 'May', 'GMP', 1, 7, 5, 3, 0, 36, 7, 3, 2, 24, 110, 163, 361),
+(2026, 'May', 'Dhaka Range', 8, 29, 72, 12, 2, 388, 16, 10, 51, 140, 1274, 1575, 3577),
+(2026, 'May', 'Mymensingh Range', 1, 5, 14, 2, 0, 109, 1, 0, 5, 38, 378, 498, 1051),
+(2026, 'May', 'Chittagong Range', 8, 27, 71, 9, 0, 254, 18, 10, 51, 117, 1236, 1203, 3004),
+(2026, 'May', 'Sylhet Range', 5, 14, 14, 1, 0, 74, 1, 2, 7, 44, 381, 316, 859),
+(2026, 'May', 'Khulna Range', 5, 12, 29, 24, 0, 165, 9, 2, 30, 59, 707, 759, 1801),
+(2026, 'May', 'Barishal Range', 3, 5, 20, 6, 2, 225, 2, 2, 32, 23, 480, 375, 1175),
+(2026, 'May', 'Rajshahi Range', 6, 17, 29, 4, 0, 205, 9, 5, 12, 77, 740, 650, 1754),
+(2026, 'May', 'Rangpur Range', 0, 5, 21, 1, 0, 220, 4, 6, 12, 100, 698, 755, 1822),
+(2026, 'May', 'Railway Range', 0, 2, 1, 0, 0, 2, 0, 0, 0, 9, 9, 38, 61);
+
+
+
+
+
+
+-- Insert June 2026 data
+INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
+(2026, 'June', 'DMP', 2, 24, 23, 2, 0, 138, 17, 6, 49, 97, 516, 537, 1411),
+(2026, 'June', 'CMP', 0, 7, 4, 5, 0, 75, 3, 2, 12, 19, 179, 190, 496),
+(2026, 'June', 'KMP', 1, 4, 3, 1, 0, 7, 0, 0, 2, 13, 51, 67, 149),
+(2026, 'June', 'RMP', 0, 2, 2, 0, 0, 14, 1, 1, 6, 16, 76, 111, 229),
+(2026, 'June', 'BMP', 0, 1, 1, 0, 0, 18, 5, 0, 3, 5, 55, 74, 162),
+(2026, 'June', 'SMP', 0, 2, 1, 6, 0, 12, 3, 3, 6, 16, 34, 67, 150),
+(2026, 'June', 'RPMP', 0, 0, 1, 0, 0, 17, 0, 0, 2, 15, 60, 61, 156),
+(2026, 'June', 'GMP', 1, 2, 3, 1, 0, 28, 6, 1, 4, 23, 103, 186, 358),
+(2026, 'June', 'Dhaka Range', 13, 33, 74, 3, 2, 383, 17, 13, 60, 114, 1452, 1611, 3775),
+(2026, 'June', 'Mymensingh Range', 0, 4, 22, 2, 0, 132, 3, 1, 1, 42, 469, 387, 1063),
+(2026, 'June', 'Chittagong Range', 11, 24, 67, 4, 1, 316, 13, 8, 72, 123, 1399, 1050, 3088),
+(2026, 'June', 'Sylhet Range', 2, 11, 22, 3, 0, 100, 2, 4, 8, 58, 367, 294, 871),
+(2026, 'June', 'Khulna Range', 3, 11, 28, 15, 0, 194, 5, 3, 22, 91, 791, 704, 1867),
+(2026, 'June', 'Barishal Range', 2, 4, 15, 5, 0, 219, 4, 0, 17, 28, 552, 300, 1146),
+(2026, 'June', 'Rajshahi Range', 2, 14, 31, 2, 0, 239, 2, 2, 6, 90, 876, 647, 1911),
+(2026, 'June', 'Rangpur Range', 1, 5, 27, 1, 0, 306, 9, 5, 25, 78, 853, 609, 1919),
+(2026, 'June', 'Railway Range', 0, 1, 2, 0, 0, 2, 0, 0, 0, 8, 19, 37, 69),
+
+

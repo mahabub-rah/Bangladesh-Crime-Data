@@ -28,7 +28,7 @@ engine = create_engine(
 client = genai.Client(api_key=API_KEY)
 
 #set varibales
-last_updated = '2026-06-09 00:00:00' 
+last_updated = '2026-07-07 00:00:00' 
 last_updated_dt = pd.to_datetime(last_updated)
 download_url = None
 json_file = None
@@ -57,7 +57,7 @@ driver.quit()
 
 #get the response
 response = requests.get(download_url)
-if response.status_code =200:
+if response.status_code == 200:
     with open (f'crime_data_{last_updated_dt.strftime("%Y-%m-%d")}.pdf', 'wb') as f:
         f.write(response.content)
 
@@ -133,6 +133,53 @@ filename = f"crime_data_{last_updated_dt.strftime('%Y-%m-%d')}.json"
 with open(filename, "r", encoding="utf-8") as f:
     data = json.load(f)
 
+# for write the in sql
+def append_sql_file(data, sql_path=f'month_{last_updated_dt.year}.sql'):
+    if not data:
+        return
+
+    from collections import OrderedDict
+    groups = OrderedDict()
+    for row in data:
+        key = (row["year"], row["month"])
+        groups.setdefault(key, []).append(row)
+
+    columns = [
+        "year", "month", "unit", "dacoity", "robbery", "murder",
+        "speedy_trial", "riot", "woman_child_repression", "kidnapping",
+        "police_assault", "burglary", "theft", "other_cases",
+        "recovery_cases", "total_cases"
+    ]
+
+    blocks = []
+    for (year, month), rows in groups.items():
+        header = f"-- Insert {month} {year} data"
+        insert_line = f"INSERT INTO crime_data ({', '.join(columns)}) VALUES"
+
+        value_lines = []
+        for row in rows:
+            vals = []
+            for col in columns:
+                v = row.get(col, 0)
+                if isinstance(v, str):
+                    v = v.replace("'", "''")  # escape quotes
+                    vals.append(f"'{v}'")
+                else:
+                    vals.append(str(v))
+            value_lines.append(f"({', '.join(vals)})")
+
+        block = f"\n\n\n{header}\n{insert_line}\n" + ",\n".join(value_lines) + ";\n"
+        blocks.append(block)
+
+    with open(sql_path, "a", encoding="utf-8") as f:
+        f.write("\n\n".join(blocks) + "\n\n")
+
+    print(f"SQL statements appended to {sql_path}")
+
+# Append to the running .sql
+append_sql_file(data)
+
+
 # Parameterized SQL
 sql = text("""
 INSERT INTO crime_data (
@@ -148,9 +195,11 @@ VALUES (
 )
 """)
 
-# Insert all rows
+# Insert all rows into database
 with engine.begin() as conn:
     conn.execute(sql, data)
+
+
 
 df = pd.read_json(f"crime_data_{last_updated_dt.strftime('%Y-%m-%d')}.json")
 df_crime = pd.read_csv('crime_data.csv')

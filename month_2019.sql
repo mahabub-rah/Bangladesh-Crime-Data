@@ -232,18 +232,15 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
 (2019, 'December', 'DMP', 2, 13, 17, 12, 1, 176, 8, 6, 74, 111, 402, 1415, 2237),
 (2019, 'December', 'CMP', 0, 6, 6, 7, 0, 60, 1, 0, 16, 12, 112, 432, 652),
-
 (2019, 'December', 'KMP', 0, 0, 0, 1, 0, 11, 0, 1, 2, 5, 26, 100, 146),
-
 (2019, 'December', 'RMP', 0, 0, 2, 0, 0, 15, 2, 1, 2, 7, 33, 296, 358),
-
-(2019, 'December', 'BMP', 0, 1, 1, 0, 9, 0, 0, 4, 6, 36, 94, 151),
-(2019, 'December', 'SMP', 0, 0, 4, 4, 17, 1, 1, 2, 18, 64, 60, 171),
-(2019, 'December', 'RPMP', 1, 2, 3, 1, 11, 0, 0, 1, 11, 28, 65, 123),
+(2019, 'December', 'BMP', 0, 1, 1, 0, 0, 9, 0, 0, 4, 6, 36, 94, 151),
+(2019, 'December', 'SMP', 0, 0, 4, 4, 0, 17, 1, 1, 2, 18, 64, 60, 171),
+(2019, 'December', 'RPMP', 1, 2, 3, 1, 0, 11, 0, 0, 1, 11, 28, 65, 123),
 (2019, 'December', 'GMP', 3, 3, 5, 0, 0, 36, 3, 0, 2, 13, 73, 214, 352),
 (2019, 'December', 'Dhaka Range', 11, 16, 60, 6, 0, 266, 6, 5, 28, 87, 806, 1137, 2428),
 (2019, 'December', 'Mymensingh Range', 0, 3, 13, 4, 0, 130, 3, 1, 4, 33, 434, 531, 1156),
-(2019, 'December', 'Chittagong Range', 4, 7, 50, 8, 220, 4, 5, 35, 73, 766, 1062, 2234),
+(2019, 'December', 'Chittagong Range', 4, 7, 50, 8, 0, 220, 4, 5, 35, 73, 766, 1062, 2234),
 (2019, 'December', 'Sylhet Range', 2, 4, 16, 4, 0, 60, 1, 2, 3, 39, 337, 247, 715),
 (2019, 'December', 'Khulna Range', 3, 5, 24, 1, 0, 153, 0, 0, 18, 39, 549, 798, 1590),
 (2019, 'December', 'Barishal Range', 3, 1, 11, 1, 0, 93, 2, 0, 11, 19, 383, 293, 817),

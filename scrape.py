@@ -8,6 +8,7 @@ import os
 from sqlalchemy import create_engine, text
 import json
 from dotenv import load_dotenv
+from collections import OrderedDict
 
 
 # Read variables
@@ -138,7 +139,6 @@ def append_sql_file(data, sql_path=f'month_{last_updated_dt.year}.sql'):
     if not data:
         return
 
-    from collections import OrderedDict
     groups = OrderedDict()
     for row in data:
         key = (row["year"], row["month"])
@@ -168,7 +168,7 @@ def append_sql_file(data, sql_path=f'month_{last_updated_dt.year}.sql'):
                     vals.append(str(v))
             value_lines.append(f"({', '.join(vals)})")
 
-        block = f"\n\n\n{header}\n{insert_line}\n" + ",\n".join(value_lines) + ";\n"
+        block = f"\n\n{header}\n{insert_line}\n" + ",\n".join(value_lines) + ";\n"
         blocks.append(block)
 
     with open(sql_path, "a", encoding="utf-8") as f:

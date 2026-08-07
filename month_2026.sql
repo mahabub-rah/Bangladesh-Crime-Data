@@ -102,11 +102,6 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 (2026, 'May', 'Rangpur Range', 0, 5, 21, 1, 0, 220, 4, 6, 12, 100, 698, 755, 1822),
 (2026, 'May', 'Railway Range', 0, 2, 1, 0, 0, 2, 0, 0, 0, 9, 9, 38, 61);
 
-
-
-
-
-
 -- Insert June 2026 data
 INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
 (2026, 'June', 'DMP', 2, 24, 23, 2, 0, 138, 17, 6, 49, 97, 516, 537, 1411),

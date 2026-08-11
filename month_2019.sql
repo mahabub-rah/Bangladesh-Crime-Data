@@ -225,7 +225,7 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 (2019, 'November', 'Barishal Range', 1, 1, 7, 1, 0, 111, 3, 0, 14, 19, 377, 287, 821),
 (2019, 'November', 'Rajshahi Range', 1, 6, 26, 4, 0, 236, 3, 4, 7, 35, 554, 1525, 2401),
 (2019, 'November', 'Rangpur Range', 1, 6, 22, 2, 0, 183, 0, 7, 8, 42, 677, 617, 1565),
-(2019, 'November', 'Railway Range', 0, 4, 1, 0, 0, 0, 0, 0, 5, 9, 1, 49, 68);
+(2019, 'November', 'Railway Range', 0, 4, 1, 0, 0, 0, 0, 0, 0, 5, 9, 49, 68);
 
 
 -- Insert December 2019 data

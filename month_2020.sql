@@ -30,7 +30,7 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 (2020, 'February', 'GMP', 0, 2, 3, 1, 0, 48, 3, 1, 2, 14, 90, 172, 336),
 (2020, 'February', 'Dhaka Range', 4, 14, 54, 8, 0, 263, 11, 4, 24, 74, 806, 1210, 2472),
 (2020, 'February', 'Mymensingh Range', 1, 1, 16, 5, 0, 129, 1, 4, 7, 35, 434, 518, 1151),
-(2020, 'February', 'Chittagong Range', 10, 16, 48, 7, 0, 239, 10, 5, 35, 89, 828, 1411, 2428),
+(2020, 'February', 'Chittagong Range', 10, 16, 48, 7, 0, 239, 10, 5, 35, 89, 828, 1141, 2428),
 (2020, 'February', 'Sylhet Range', 3, 3, 19, 0, 0, 67, 1, 2, 4, 30, 306, 252, 687),
 (2020, 'February', 'Khulna Range', 3, 6, 17, 2, 0, 168, 2, 4, 19, 49, 520, 821, 1611),
 (2020, 'February', 'Barishal Range', 1, 4, 12, 0, 0, 106, 2, 1, 9, 26, 374, 302, 837),
@@ -69,7 +69,7 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 (2020, 'April', 'SMP', 0, 0, 1, 2, 0, 11, 0, 1, 4, 6, 49, 10, 84),
 (2020, 'April', 'RPMP', 0, 1, 1, 0, 0, 6, 0, 0, 0, 3, 35, 10, 56),
 (2020, 'April', 'GMP', 0, 1, 3, 1, 0, 11, 0, 0, 2, 7, 68, 24, 117),
-(2020, 'April', 'Dhaka Range', 5, 7, 51, 4, 0, 128, 2, 11, 11, 40, 786, 230, 1248),
+(2020, 'April', 'Dhaka Range', 5, 7, 51, 4, 0, 128, 2, 11, 11, 40, 786, 203, 1248),
 (2020, 'April', 'Mymensingh Range', 0, 1, 25, 1, 0, 58, 2, 4, 1, 27, 666, 41, 826),
 (2020, 'April', 'Chittagong Range', 2, 5, 55, 7, 0, 108, 1, 9, 17, 37, 936, 346, 1523),
 (2020, 'April', 'Sylhet Range', 2, 0, 13, 0, 0, 38, 0, 4, 2, 31, 336, 59, 485),
@@ -81,7 +81,7 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 
 -- Insert May 2020 data
 INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
-(2020, 'May', 'DMP', 2, 8, 13, 6, 0, 68, 1, 3, 31, 43, 172, 172, 518),
+(2020, 'May', 'DMP', 2, 8, 13, 6, 0, 68, 1, 3, 31, 43, 172, 171, 518),
 (2020, 'May', 'CMP', 0, 3, 6, 3, 0, 23, 0, 0, 11, 20, 102, 65, 233),
 (2020, 'May', 'KMP', 0, 0, 0, 0, 0, 12, 1, 0, 0, 2, 21, 5, 41),
 (2020, 'May', 'RMP', 0, 1, 2, 0, 0, 17, 0, 0, 4, 2, 51, 69, 146),
@@ -139,7 +139,7 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 (2020, 'July', 'Barishal Range', 2, 3, 12, 0, 0, 111, 0, 1, 13, 17, 354, 299, 812),
 (2020, 'July', 'Rajshahi Range', 0, 3, 40, 8, 0, 220, 0, 5, 5, 63, 503, 1357, 2204),
 (2020, 'July', 'Rangpur Range', 1, 2, 26, 3, 0, 217, 3, 0, 15, 83, 734, 537, 1621),
-(2020, 'July', 'Railway Range', 0, 0, 1, 0, 0, 0, 0, 0, 0, 5, 9, 16, 22);
+(2020, 'July', 'Railway Range', 0, 0, 1, 0, 0, 0, 0, 0, 0, 5, 9, 16, 31);
 
 -- Insert August 2020 data
 INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
@@ -200,7 +200,7 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 
 (2020, 'October', 'Barishal Range', 2, 2, 10, 17, 0, 178, 3, 4, 14, 18, 395, 229, 872),
 (2020, 'October', 'Rajshahi Range', 3, 8, 36, 5, 0, 324, 3, 2, 13, 46, 574, 1201, 2215),
-(2020, 'October', 'Rangpur Range', 0, 4, 17, 3, 0, 297, 1, 3, 13, 66, 619, 370, 1465),
+(2020, 'October', 'Rangpur Range', 0, 4, 17, 3, 0, 297, 1, 3, 13, 66, 691, 370, 1465),
 (2020, 'October', 'Railway Range', 1, 2, 2, 0, 0, 1, 1, 0, 0, 8, 8, 19, 42);
 
 -- Insert November 2020 data

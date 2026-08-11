@@ -105,7 +105,7 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 
 -- Insert June 2022 data
 INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
-(2022, 'June', 'DMP', 3, 10, 21, 7, 0, 199, 4, 15, 63, 131, 684, 1342, 2513),
+(2022, 'June', 'DMP', 3, 10, 21, 7, 0, 199, 4, 15, 63, 131, 684, 1376, 2513),
 (2022, 'June', 'CMP', 0, 11, 7, 12, 0, 66, 2, 1, 11, 29, 152, 160, 451),
 (2022, 'June', 'KMP', 1, 0, 2, 1, 0, 13, 0, 1, 2, 2, 32, 90, 144),
 (2022, 'June', 'RMP', 0, 2, 3, 0, 0, 13, 1, 1, 3, 16, 49, 211, 299),
@@ -117,7 +117,7 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 (2022, 'June', 'Mymensingh Range', 0, 3, 15, 12, 0, 218, 5, 2, 7, 44, 502, 362, 1170),
 (2022, 'June', 'Chittagong Range', 5, 12, 38, 8, 0, 237, 7, 6, 34, 103, 903, 1231, 2584),
 (2022, 'June', 'Sylhet Range', 3, 3, 10, 3, 0, 87, 0, 1, 5, 36, 312, 167, 627),
-(2022, 'June', 'Khulna Range', 7, 4, 23, 5, 0, 184, 3, 6, 14, 74, 768, 672, 1784),
+(2022, 'June', 'Khulna Range', 7, 4, 23, 5, 0, 184, 3, 6, 14, 74, 768, 696, 1784),
 (2022, 'June', 'Barishal Range', 4, 3, 12, 5, 0, 121, 0, 6, 12, 27, 355, 222, 767),
 (2022, 'June', 'Rajshahi Range', 0, 6, 25, 5, 0, 259, 4, 4, 12, 83, 685, 1184, 2267),
 (2022, 'June', 'Rangpur Range', 0, 5, 24, 4, 0, 219, 5, 0, 11, 84, 694, 348, 1394),
@@ -167,7 +167,7 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
 (2022, 'September', 'DMP', 4, 15, 18, 14, 4, 173, 2, 4, 61, 175, 605, 1267, 2342),
 (2022, 'September', 'CMP', 1, 8, 6, 9, 0, 69, 1, 2, 16, 26, 144, 189, 471),
-(2022, 'September', 'KMP', 0, 2, 1, 1, 0, 20, 1, 0, 6, 7, 26, 0, 148),
+(2022, 'September', 'KMP', 0, 2, 1, 1, 0, 20, 1, 0, 6, 7, 26, 84, 148),
 (2022, 'September', 'RMP', 0, 3, 3, 0, 0, 16, 0, 0, 3, 12, 54, 216, 307),
 (2022, 'September', 'BMP', 2, 0, 1, 0, 0, 15, 0, 1, 5, 9, 41, 72, 146),
 (2022, 'September', 'SMP', 0, 0, 2, 6, 0, 32, 0, 1, 6, 9, 87, 61, 204),
@@ -181,7 +181,7 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 (2022, 'September', 'Barishal Range', 1, 2, 12, 1, 0, 111, 0, 1, 6, 38, 309, 233, 714),
 (2022, 'September', 'Rajshahi Range', 2, 12, 30, 4, 0, 247, 4, 7, 9, 84, 654, 1143, 2196),
 (2022, 'September', 'Rangpur Range', 1, 4, 19, 2, 0, 277, 3, 1, 22, 84, 739, 394, 1546),
-(2022, 'September', 'Railway Range', 0, 2, 2, 0, 0, 0, 1, 0, 0, 13, 14, 0, 75);
+(2022, 'September', 'Railway Range', 0, 2, 2, 0, 0, 0, 1, 0, 0, 13, 14, 43, 75);
 
 -- Insert October 2022 data
 INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
@@ -221,7 +221,7 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 (2022, 'November', 'Barishal Range', 1, 3, 8, 2, 0, 88, 3, 1, 8, 26, 307, 204, 651),
 (2022, 'November', 'Rajshahi Range', 5, 7, 28, 7, 0, 182, 1, 7, 14, 73, 691, 1193, 2208),
 (2022, 'November', 'Rangpur Range', 1, 6, 23, 5, 0, 204, 1, 3, 20, 75, 727, 354, 1419),
-(2022, 'November', 'Railway Range', 0, 0, 2, 0, 0, 0, 0, 0, 4, 9, 2, 39, 54);
+(2022, 'November', 'Railway Range', 0, 0, 2, 0, 0, 0, 0, 0, 0, 4, 9, 39, 54);
 
 -- Insert December 2022 data
 INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_trial, riot, woman_child_repression, kidnapping, police_assault, burglary, theft, other_cases, recovery_cases, total_cases) VALUES
@@ -240,5 +240,5 @@ INSERT INTO crime_data (year, month, unit, dacoity, robbery, murder, speedy_tria
 (2022, 'December', 'Khulna Range', 0, 3, 18, 2, 0, 118, 1, 0, 9, 75, 566, 679, 1471),
 (2022, 'December', 'Barishal Range', 3, 1, 5, 2, 0, 77, 3, 1, 9, 28, 318, 240, 687),
 (2022, 'December', 'Rajshahi Range', 1, 6, 20, 4, 0, 135, 4, 2, 9, 59, 626, 1001, 1867),
-(2022, 'December', 'Rangpur Range', 1, 2, 17, 4, 0, 136, 2, 7, 14, 64, 681, 405, 1343),
+(2022, 'December', 'Rangpur Range', 1, 2, 17, 4, 0, 136, 2, 7, 14, 64, 681, 415, 1343),
 (2022, 'December', 'Railway Range', 0, 1, 2, 0, 0, 0, 0, 0, 0, 8, 9, 30, 50);

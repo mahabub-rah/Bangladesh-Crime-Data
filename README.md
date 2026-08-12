@@ -5,9 +5,9 @@ An end-to-end pipeline and dashboard for **monthly crime statistics published by
 The project automatically scrapes the official Bangladesh Police statistics page, extracts structured data from the published PDF reports using Google's Gemini API, stores it in MySQL, and visualizes it through a live, filterable graph and map dashboard.
 
 **🔗 Live dashboard:** [mahabub-rah.github.io/Bangladesh-Crime-Data](https://mahabub-rah.github.io/Bangladesh-Crime-Data/)
-![Image](css/image.png)
-
 ---
+![Image](css/image.png)
+--
 
 ## ✨ Features
 

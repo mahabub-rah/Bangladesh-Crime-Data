@@ -37,7 +37,7 @@
       over HTTP — opening the HTML file directly (<code>file://…</code>) blocks that for security reasons in most browsers.
       From a terminal, in the folder containing both files, run:
       <pre>python3 -m http.server 8000</pre>
-      then open <code>http://localhost:8000/bangladesh_crime_dashboard.html</code>. The page will keep checking
+      then open <code>http://localhost:8000/index.html</code>. The page will keep checking
       <code>crime_data.csv</code> every few seconds and refresh automatically whenever you save changes to it.
     </div>
   </div>
@@ -775,7 +775,7 @@ async function loadData(manual){
 
     if(text === lastRawCsv){
       syncStatus.textContent = "Auto-refresh on \u00b7 checked " + new Date().toLocaleTimeString();
-      if(manual) showToast("No changes in crime_data.csv");
+      if(manual) showToast("No Update data");
       return;
     }
     const changed = lastRawCsv !== null;
